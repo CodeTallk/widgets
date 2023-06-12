@@ -1,3 +1,5 @@
+import './Countdown1.css'
+
 function Countdown1() {
 
     const [days, setdays] = React.useState(0); 
@@ -83,6 +85,5 @@ function Countdown1() {
   )
 }
 
-export default Countdown1
 
 ReactDOM.render(<Countdown1/>, document.querySelector("#countdown1"))
