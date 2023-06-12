@@ -1,5 +1,3 @@
-import './Countdown1.css'
-
 function Countdown1() {
 
     const [days, setdays] = React.useState(0); 
