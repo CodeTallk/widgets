@@ -85,3 +85,4 @@ function Countdown1() {
 
 export default Countdown1
 
+ReactDOM.render(<Countdown1/>, document.querySelector("#countdown1"))
