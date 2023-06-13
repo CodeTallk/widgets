@@ -1,5 +1,8 @@
+import React from 'react'
+
 function Countdown1() {
 
+    const style =  require('./Countdown1.css');
     const [days, setdays] = React.useState(0); 
     const [hrs, sethrs] = React.useState(0); 
     const [minutes, setminutes] = React.useState(0); 
@@ -83,5 +86,6 @@ function Countdown1() {
   )
 }
 
+export default Countdown1
 
 ReactDOM.render(<Countdown1/>, document.querySelector("#countdown1"))
